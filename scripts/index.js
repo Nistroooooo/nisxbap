@@ -236,9 +236,11 @@ hook.send(embed);
 
 console.log("Vérification du site web...");
 checkInformations();
+console.log("Vérification terminée !");
 cron.schedule(interval2, () => {
      console.log("Vérification du site web...");
      checkInformations();
+      console.log("Vérification terminée !");
 });
 
 function convertDateToFrench($data) {
